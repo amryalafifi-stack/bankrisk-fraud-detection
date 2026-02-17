@@ -1,0 +1,33 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore large CSV file (use demo data instead)
+fraudTest.csv
+
+# Ignore test files
+test_*.csv
+test_*.py
+verify.py
+
+# Ignore OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore environment
+.env
+venv/
+env/
+ENV/
+
+# Ignore Streamlit cache
+.streamlit/
